@@ -1,0 +1,48 @@
+.navDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+.logoimage{
+    width: 80px;
+    height: 80px;
+}
+.burger{
+font-size: 2rem;
+}
+.navLi{
+display: flex;
+
+}
+.navLi li{
+    list-style: none;
+    margin: 0 20px;
+}
+.navLi li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: rgb(23, 154, 190);
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+}
+.navLi li a:hover{
+    color: rgb(156, 168, 49)
+
+}
+@media (min-width:800px){
+    .burger{
+        display: none;
+    }
+  
+}
+@media (max-width:800px){
+   
+    .navLi{
+        display: none;
+    }
+}
